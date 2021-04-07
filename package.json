@@ -1,0 +1,58 @@
+{
+  "_from": "server-anywhere",
+  "_id": "server-anywhere@2.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-aUTiNy/bYZXZpgoleaV2zah+HlkK8bYL7zfAVf7lBmDhEBHaLopOLgr1hV1xEUdGsrr+axUTDvnnX82cT61LfQ==",
+  "_location": "/server-anywhere",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "server-anywhere",
+    "name": "server-anywhere",
+    "escapedName": "server-anywhere",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/server-anywhere/-/server-anywhere-2.2.1.tgz",
+  "_shasum": "4c593259b3e446eba6286dbedf9954c603a55b3f",
+  "_spec": "server-anywhere",
+  "_where": "E:\\test-npm-package",
+  "author": "",
+  "bin": {
+    "server-anywhere": "index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mime": "^1.6.0",
+    "minimist": "^1.2.5",
+    "open": "^8.0.2",
+    "opener": "^1.5.2",
+    "ws": "^7.4.4"
+  },
+  "deprecated": false,
+  "description": "start static web server in current directory,support for html real-time refreshing",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "static server",
+    "Refresh automatically"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "server-anywhere",
+  "scripts": {
+    "start": "nodemon index.js --devmode",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.2.1"
+}
