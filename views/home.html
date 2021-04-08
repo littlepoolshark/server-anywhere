@@ -36,7 +36,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>files</h1>
+        <h1 onclick="history.back()" style="cursor: pointer;">files<span style="font-size: 12px;color:#333;">(click to back)</span></h1>
         <ul id="users">
         <% files.forEach(function(file){ %>
             <li><img class="icon" src="/image/<%= file.type === 'file' ? 'wenjian.png' : 'wenjianjia.png' %>" alt=""><a href="<%= file.path %>"><%= file.name %></a></li>
